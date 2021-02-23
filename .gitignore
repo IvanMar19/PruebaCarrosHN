@@ -3,6 +3,7 @@
 
 #/src/firebaseconfig.js
 #/src/Axios-Data.js
+/build
 
 # dependencies
 /node_modules

@@ -5,8 +5,8 @@ import { Col, Card, Button } from 'react-bootstrap';
 export default function HomeTop() {
     return (
         <div>
-            <Col style={{paddingTop: '5rem'}}>
-                <Card style={{ width: '30rem', height: '15rem'}}>
+            <Col style={{paddingTop: '5%'}}>
+                <Card style={{ width: '35%', height: '20%'}}>
                     <Card.Body>
                         <Card.Title style={{ fontWeight:'bold', fontSize: 40}}>Renta de autos en Panamá</Card.Title>
                         <Card.Text style={{ fontSize: 20}}>
