@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
-import NavLink from 'react-router-dom/NavLink';
+import {NavLink} from 'react-router-dom';
 import { auth } from '../../firebaseconfig';
 
 export default function Menu(props) {

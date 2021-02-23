@@ -1,8 +1,14 @@
 import React from "react";
 import '../../App.css'
 import { Col, Card, Button } from 'react-bootstrap';
+// import {NavLink} from 'react-router-dom';
 
 export default function HomeTop() {
+
+    const goCar = () => {
+        window.location.assign("/Vehiculos")
+    }
+
     return (
         <div>
             <Col style={{paddingTop: '5%'}}>
@@ -12,7 +18,7 @@ export default function HomeTop() {
                         <Card.Text style={{ fontSize: 20}}>
                             Busca ofertas de autos de alquiler en Panamá
                         </Card.Text>
-                        <Button as={Card.Link} href="/Vehiculos">Ver autos</Button>
+                        <Button onClick={goCar}>Ver autos</Button>
                     </Card.Body>
                 </Card>
             </Col>
