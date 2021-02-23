@@ -4,7 +4,7 @@ import { Card} from 'react-bootstrap';
 export default function CarrosCard(props) {
 
     return (
-            <Card style={{ width: '18rem', marginBottom: 30 }}>
+            <Card style={{width: '100%', height: 'auto', }}>
                 <img src={props.url} width="100%" height="auto" alt="carro banner" />
                 <Card.Body>
                     <Card.Title>

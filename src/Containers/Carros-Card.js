@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 export default function CarrosCard(props) {
 
     return (
-            <Card style={{ width: '18rem', marginBottom: 30 }}>
+            <Card style={{ width: '100%', height:"auto", marginBottom: 30 }}>
                 <img src={props.url} width="100%" height="auto" alt="carro banner" />
                 {/* <Card.Img variant="top" src={CarImage} /> */}
                 <Card.Body>
